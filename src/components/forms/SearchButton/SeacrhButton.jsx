@@ -1,5 +1,5 @@
 import { Button } from '@mui/material'
-import SeacthIcon from '../../../assecc/icons/search.svg'
+import SeacthIcon from '../../../assets/icons/search.svg'
 import classes from './SeacrhButton.module.css'
 
 function SearchButton({ onSubmit }) {

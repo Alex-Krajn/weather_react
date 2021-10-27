@@ -1,12 +1,14 @@
 import './App.css';
-import SingleWeather from './components/forms/SingleWeather';
+import SingleWeather from './components/SingleWeather';
+import { Provider } from 'react-redux';
+import store from './store/store'
 
 function App() {
   // process.env.REACT_APP_API_KEY
   return (
-    <div className="App">
+    <Provider store={ store } className="App">
       <SingleWeather />
-    </div>
+    </Provider>
   );
 }
 
